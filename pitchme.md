@@ -13,7 +13,7 @@ class:
 
 
 # Reproducibility in Scientific Research
-## We're doing it wrong
+### We're doing it wrong
 
 #
 
@@ -27,9 +27,11 @@ class:
 ---
 ## What are we talking about?
 
+(According to ACM)
+
 * Repeatability: same team, same setting
 * Reproducibility: different team, same setting
-* Replicability: different team, different setting, can be re-implemented
+* Replicability: different team, different setting
 
 ---
 ## What reproducibility can do for the others
@@ -45,6 +47,7 @@ class:
 * Better control over your workflow
 * Higher confidence in your results
 * Quicker prototyping
+* Reproducible research gains more attention
 
 * Think of yourself in five years' time as *a different person*
 
@@ -52,11 +55,11 @@ class:
 ## Tricks of the trade
 
 * Git: Commit _before_ experiments and tag the results
-* Build a script cascade
+* Build a "script cascade" (using configuration files)
   * One "root" ```run.sh``` script
   * Several child scripts (```figure1.sh```, ```exp1.sh```, ...)
-* Provide a Docker container image (please!)
-* TELL ME YOUR RANDOM SEED
+* Provide a container image (please!)
+* TELL ME YOUR RANDOM SEED(s)
 * And infinitely many others
   * ```pip```/```conda```/```maven```
   * notebooks
@@ -67,10 +70,13 @@ class:
 
 * _Design_ your workflow to be reproducible
 * Don't be lazy
-* YOU FORGOT THE RANDOM SEED
+* YOU FORGOT THE RANDOM SEEDS
 
 ---
 ## One more thing...
 
 ---
-![bg](./figures/screenshot.png)
+![width:1000px](./figures/screenshot.png)
+
+---
+![width:256px](./figures/qr-code.png)

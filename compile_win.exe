@@ -1,0 +1,6 @@
+# Author: Marco Esposito
+
+# Thanks to Filippo Maggioli for the support.
+
+echo "Please see linux.org and www.fsf.org for instructions"
+echo "Also, see https://hub.docker.com/r/marpteam/marp-cli/"
