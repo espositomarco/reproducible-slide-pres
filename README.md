@@ -28,6 +28,11 @@ On MacOS, just use the ```compile_macos.sh``` script in the same way.
 
 If you are using Windows, see [here](https://hub.docker.com/r/marpteam/marp-cli/) to get instructions on how to run the docker image directly.
 
+
+## Useful links
+
+- [ACM Artifact review guidelines](https://www.acm.org/publications/policies/artifact-review-and-badging-current)
+
 ## License
 
 This code is released under the [Unlicense](https://unlicense.org/).
